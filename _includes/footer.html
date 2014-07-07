@@ -1,0 +1,76 @@
+
+		<!-- Javascript -->
+		<!-- In the footer for better performance -->
+		<script src="{{ site.baseurl }}/js/kraken.js"></script>
+
+		<script>
+
+	$(document).ready(function(){
+
+
+$.fn.scrollify = function() {
+
+	return this.each(function(){
+		$(this).click(function(event){
+			event.preventDefault();
+			var target = $(this).attr("href");
+			$("body").animate({scrollTop: $(target).offset().top},500)
+		});
+	})
+}
+$("nav a").scrollify();
+
+  $('.main-section').windows({
+        snapping: true,
+        snapSpeed: 500,
+        snapInterval: 300
+        });//end main-section
+
+$("#header").headroom({
+
+    // vertical offset in px before element is first unpinned
+    offset : 100,
+    // scroll tolerance in px before state changes
+    tolerance : 0,
+    // css classes to apply
+    classes : {
+        // when element is initialised
+        initial : "headroom",
+        // when scrolling up
+        pinned : "headroom-pinned",
+        // when scrolling down
+        unpinned : "headroom-unpinned",
+        // when above offset
+        top : "headroom-top"
+        // when below offset
+    }//end header
+});//close header
+  $.scrollUp({
+    scrollName: 'scroll-up', // Element ID
+    topDistance: '500', // Distance from top before showing element (px)
+    topSpeed: 500, // Speed back to top (ms)
+    animation: 'slide', // Fade, slide, none
+    animationInSpeed: 200, // Animation in speed (ms)
+    animationOutSpeed: 200, // Animation out speed (ms)
+    scrollText: 'Back to top', // Text for element
+    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+  });
+
+
+});//end ready function
+    
+</script>
+
+
+
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
+		<script>
+			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+			s.parentNode.insertBefore(g,s)}(document,'script'));
+		</script>
+
+	</body>
+</html>
