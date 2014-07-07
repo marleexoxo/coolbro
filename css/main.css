@@ -74,9 +74,18 @@ textarea {
 	}
 
    
-	body, html { height:100%; font:1em/1.5 Cambria, Georgia, Times, "Times New Roman", serif; }
-	h1 { font-family:pt_serifbold; }
-	.content { width:1000px; margin:0 auto; }
+	body, html { 
+        height:100%; 
+        font:1em/1.5 Cambria, Georgia, Times, 
+        "Times New Roman", serif;
+         }
+	h1 { 
+        font-family:pt_serifbold; 
+    }
+	.content { 
+        width:1000px; 
+        margin:0 auto;
+         }
    
    
 	header { 
@@ -93,33 +102,105 @@ textarea {
         -webkit-transform:translateY(-100%); 
     }
 	
-	header h1 { color:#fff; margin:0; text-align:center; text-shadow:2px 2px 5px #000; font-size:3em; }
-	header h1 span { color:#0769AD; }
-	header ul { list-style:none; margin:20px 0; padding:0; text-align:center; }
-	header ul li { display:inline-block; padding:0 20px; margin:0 20px; }
-	header ul li:hover { background-color:#1e2328; }
-	header ul li a { color:#fff; text-decoration:none; text-transform:uppercase; }
+	header h1 { 
+        color:#fff; 
+        margin:0; 
+        text-align:center; 
+        text-shadow:2px 2px 5px #000; 
+        font-size:3em; 
+    }
+	header h1 span { 
+        color:#0769AD; 
+    }
+	header ul { 
+        list-style:none; 
+        margin:20px 0; 
+        padding:0;
+         text-align:center; 
+     }
+	header ul li { 
+        display:inline-block; 
+        padding:0 20px; 
+        margin:0 20px;
+         }
+	header ul li:hover { 
+        background-color:#1e2328; 
+    }
+	header ul li a { 
+        color:#fff; 
+        text-decoration:none; 
+        text-transform:uppercase; 
+    }
 	
-	header.headroom-not-top { height:50px; }
-	header.headroom-not-top  h1 { float:left; font-size:30px; line-height:50px; }
-	header.headroom-not-top nav { float:right; }
-	header.headroom-not-top nav ul { margin:0; }
-	header.headroom-not-top nav ul li { display:block; float:left; padding:0 20px; margin:0 10px; }
-	header.headroom-not-top nav ul li a { font-size:16px; line-height:50px; }
+	header.headroom-not-top { 
+        height:50px;
+         }
+	header.headroom-not-top  h1 { 
+        float:left; font-size:30px; 
+        line-height:50px; 
+    }
+	header.headroom-not-top nav { 
+        float:right; 
+    }
+	header.headroom-not-top nav ul { 
+        margin:0; 
+    }
+	header.headroom-not-top nav ul li { 
+        display:block; 
+        float:left; 
+        padding:0 20px; 
+        margin:0 10px; 
+    }
+	header.headroom-not-top nav ul li a { 
+        font-size:16px; 
+        line-height:50px; 
+    }
 	
-	section { min-height:100%; }
-	section .content { padding:100px 0; }
-	#section-1 { background:url(../img/technology.jpg); background-size:cover; color:#fff; }
-	#section-1 > div { padding:200px 0; }
-	#section-1 h1 { font-size:4em; text-shadow:2px 2px 5px #000; line-height:1; }
-	#section-1 p { background-color:rgba(0,0,0,.5); font-size:2em; }
+	section { 
+        min-height:100%;
+         }
+	section .content {
+     padding:100px 0; 
+ }
+	#section-1 { 
+        background:url(../img/technology.jpg); 
+        background-size:cover; 
+        color:black; 
+    }
+	#section-1 > div { 
+        padding:200px 0;
+         }
+	#section-1 h1 { 
+        font-size:4em; 
+        text-shadow:2px 2px 5px #000; 
+        line-height:1; 
+    }
+	#section-1 p { 
+        background-color:rgba(0,0,0,.5); 
+        font-size:2em; 
+    }
 	
-	#section-2, #section-4 { background-color:#efefef; }
+	#section-2, #section-4 { 
+        background-color:#efefef; 
+    }
 	
-	#section-3 { background:url(../img/ipad.jpg); background-size:cover; }
-	#section-3 > div > div { background-color:rgba(255,255,255,.7); padding:50px 20px; }
-	#section-3 h1 { font-size:4em; text-shadow:2px 2px 5px #000; line-height:1; text-shadow:none; }
-	#section-3 p { font-size:1.5em; }
+	#section-3 { 
+        background:url(../img/ipad.jpg); 
+        background-size:cover; 
+    }
+	#section-3 > div > div { 
+        background-color:rgba(255,255,255,.7); 
+        padding:50px 20px; 
+    }
+	#section-3 h1 { 
+        font-size:4em; 
+        text-shadow:2px 2px 5px #000; 
+        line-height:1; 
+        text-shadow:none; 
+    }
+	#section-3 p { 
+        font-size:1.5em; 
+    }
 	
 	#scroll-up {
 	  bottom: 20px;
