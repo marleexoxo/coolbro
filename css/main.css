@@ -61,18 +61,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   @font-face {
-		font-family: 'pt_serifbold';
-		src: url('../fonts/PTF75F-webfont.eot');
-		src: url('../fonts/PTF75F-webfont.eot?#iefix') format('embedded-opentype'),
-			 url('../fonts/PTF75F-webfont.woff') format('woff'),
-			 url('../fonts/PTF75F-webfont.ttf') format('truetype'),
-			 url('../fonts/PTF75F-webfont.svg#pt_serifbold') format('svg');
-		font-weight: normal;
-		font-style: normal;
-
-	}
-
+ 
    
 	body, html { 
         height:100%; 
@@ -120,16 +109,18 @@ textarea {
      }
 	header ul li { 
         display:inline-block; 
-        padding:0 20px; 
-        margin:0 20px;
+       padding:0px 5px;
+
          }
 	header ul li:hover { 
         background-color:#1e2328; 
     }
 	header ul li a { 
-        color:#fff; 
-        text-decoration:none; 
-        text-transform:uppercase; 
+       text-shadow:2px 2px 5px #000;
+color:#fff;
+text-transform:uppercase;
+font-size:28px;
+ 
     }
 	
 	header.headroom-not-top { 
