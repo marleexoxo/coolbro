@@ -23,7 +23,7 @@
 h1 {
   font-family: BrandonText-Bold, Futura, Helvetica, Arial, sans-serif;
   font-size: 6.0em;
-  color: #1babb7;
+  color: pink;
   text-align: center;
 }
 
@@ -32,13 +32,13 @@ h2 {
   font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
   font-size: 1.4em;
   text-align: center;
-  color: #333a3e;
+  color: green;
 }
 
 /* line 13, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 p {
   font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
-  color: #333a3e;
+  color: blue;
   font-size: 1.4em;
 }
 
