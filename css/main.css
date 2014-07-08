@@ -98,9 +98,7 @@ textarea {
         text-shadow:2px 2px 5px #000; 
         font-size:3em; 
     }
-	header h1 span { 
-        color:#0769AD; 
-    }
+
 	header ul { 
         list-style:none; 
         margin:20px 0; 
@@ -145,6 +143,7 @@ font-size:28px;
 	header.headroom-not-top nav ul li a { 
         font-size:16px; 
         line-height:50px; 
+        font-color:black;
     }
 	
 	section { 
