@@ -153,9 +153,9 @@ font-size:28px;
      padding:100px 0; 
  }
 	#section-1 { 
-        background:url(../img/technology.jpg); 
+        
         background-size:cover; 
-        color:black; 
+    background-color:black; 
     }
 	#section-1 > div { 
         padding:200px 0;
