@@ -345,16 +345,20 @@ body, html { height:100%; font:1em/1.5 Cambria, Georgia, Times, "Times New Roman
   }
   header ul li { 
     display:inline-block; 
-    padding:0 20px; 
-    margin:0 20px; 
+    padding:0 0px; 
+    margin:0 15px; 
   }
   header ul li:hover { 
     background-color:#1e2328;
      }
   header ul li a { 
-    color:black;
-     text-decoration:none; 
+   
+  text-decoration:none; 
      text-transform:uppercase; 
+     text-shadow:2px 2px 5px #000;
+color:#fff;
+
+font-size:28px;
    }
   
   header.headroom-not-top { height:50px; }
