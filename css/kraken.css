@@ -327,6 +327,14 @@ body, html { height:100%; font:1em/1.5 Cambria, Georgia, Times, "Times New Roman
     transform:translateY(-100%);
      -webkit-transform:translateY(-100%); 
    }
+
+   .logo{
+  height:84px;
+  float:left;
+  width:100px;
+
+
+}
   
   header h1 {
    color:#fff; 
