@@ -316,20 +316,46 @@ body, html { height:100%; font:1em/1.5 Cambria, Georgia, Times, "Times New Roman
    
   header { 
     position:fixed; 
-    top:0; left:0; 
+    top:0; 
+    left:0; 
     width:100%; 
     background-color:grey;
     transition:.5s;
      -webkit-transition:.5; 
    }
-  header.headroom-unpinned { transform:translateY(-100%); -webkit-transform:translateY(-100%); }
+  header.headroom-unpinned { 
+    transform:translateY(-100%);
+     -webkit-transform:translateY(-100%); 
+   }
   
-  header h1 { color:#fff; margin:0; text-align:center; text-shadow:2px 2px 5px #000; font-size:3em; }
-  header h1 span { color:#0769AD; }
-  header ul { list-style:none; margin:20px 0; padding:0; text-align:center; }
-  header ul li { display:inline-block; padding:0 20px; margin:0 20px; }
-  header ul li:hover { background-color:#1e2328; }
-  header ul li a { color:black; text-decoration:none; text-transform:uppercase; }
+  header h1 {
+   color:#fff; 
+   margin:0; 
+   text-align:center; 
+   text-shadow:2px 2px 5px #000;
+   font-size:3em; 
+ }
+  header h1 span { 
+    color:#0769AD; 
+  }
+  header ul { 
+    list-style:none; 
+    margin:20px 0; 
+    padding:0; 
+  }
+  header ul li { 
+    display:inline-block; 
+    padding:0 20px; 
+    margin:0 20px; 
+  }
+  header ul li:hover { 
+    background-color:#1e2328;
+     }
+  header ul li a { 
+    color:black;
+     text-decoration:none; 
+     text-transform:uppercase; 
+   }
   
   header.headroom-not-top { height:50px; }
   header.headroom-not-top  h1 { float:left; font-size:30px; line-height:50px; }
