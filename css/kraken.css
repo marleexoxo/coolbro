@@ -350,6 +350,7 @@ body, html { height:100%; font:1em/1.5 Cambria, Georgia, Times, "Times New Roman
     list-style:none; 
     margin:20px 0; 
     padding:0; 
+    height:84px;
   }
   header ul li { 
     display:inline-block; 
