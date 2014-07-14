@@ -305,11 +305,23 @@ a:active {
 
 
 body, html { height:100%; font:1em/1.5 Cambria, Georgia, Times, "Times New Roman", serif; }
-  h1 { font-family:pt_serifbold; }
-  .content { width:1000px; margin:0 auto; }
+  h1 { 
+    font-family:pt_serifbold; 
+  }
+  .content { 
+    width:1000px; 
+    margin:0 auto;
+     }
    
    
-  header { position:fixed; top:0; left:0; width:100%; background:url(../img/dark-grey-tile.png); transition:.5s; -webkit-transition:.5; }
+  header { 
+    position:fixed; 
+    top:0; left:0; 
+    width:100%; 
+    background-color:grey;
+    transition:.5s;
+     -webkit-transition:.5; 
+   }
   header.headroom-unpinned { transform:translateY(-100%); -webkit-transform:translateY(-100%); }
   
   header h1 { color:#fff; margin:0; text-align:center; text-shadow:2px 2px 5px #000; font-size:3em; }
